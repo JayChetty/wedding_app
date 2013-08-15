@@ -2,12 +2,15 @@ class StaticPagesController < ApplicationController
   def home
   end
 
-  def contact
+  def rsvp
   end
 
   def venue
   end
 
   def accommodation
+  end
+
+  def order
   end
 end

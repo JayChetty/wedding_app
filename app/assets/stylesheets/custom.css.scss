@@ -1,4 +1,16 @@
 @import "bootstrap";
+@import "bootstrap-responsive";
+/*body {background-image:url('bground2.jpg');}*/
+/*body {background-color: #F7F4BE;}*/
+
+.hero-unit {
+  /*background-image:url('weddingback2.jpg');*/
+  /*background-image:url('bground2.jpg');*/
+  /*background-color: #FAF4C5;*/
+  background-color: #FCF9DC;
+  /*background-image:url('ivory.jpg');*/
+
+}
 
 html {
   overflow-y: scroll;
@@ -6,6 +18,7 @@ html {
 
 body {
   padding-top: 60px;
+  /*background: #ffffdd;*/
 }
 
 section {
@@ -31,20 +44,36 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1;
 }
 
+/*h2 {
+  font-family: Georgia;
+}*/
+small {
+ font-family: Georgia; 
+ font-size:1em;
+ color: #A57CCF;
+}
+
+.head {
+  font-size: 2.2em;
+  font-family: Georgia;
+  font-variant: small-caps
+}
+
+
 h1 {
   font-size: 2em;
- /* font-size:medium;*/
   letter-spacing: -2px;
   margin-bottom: 30px;
   text-align: left;
 }
 
 h2 {
-  font-size: 1.7em;
+  font-size: 1.5em;
   letter-spacing: -1px;
   margin-bottom: 30px;
   font-weight: normal;
-  color: #999;
+  /*color: #999;*/
+  color: #A57CCF;
 }
 
 p {
