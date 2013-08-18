@@ -8,27 +8,28 @@
     <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->	  
-	</head>
-	<body>
+    <!-- <meta name="viewport" content="initial-scale=1.0, user-scalable=no" /> -->
 
-    <div class="container">
+	</head>
+	<body>    
+  <div class="container">
       <div class="hero-unit">
         <div class="head"> <%= yield(:title) %></div> 
-          <small> &nbsp &nbsp Rachael and Jay's Wedding </small>
-        </div>          
+        <small> &nbsp &nbsp Rachael and Jay's Wedding </small>
+      </div>    
+     
       <div class = "row">
-        <div class="span2 ">
+         
+        <div class="span3 ">
         <ul class="nav nav-tabs nav-stacked">
             <li><%= link_to "Welcome", root_path %></li>
-            <li><%= link_to "Venue", venue_path %></li>
+            <li><%= link_to "Venue/Itinerary", venue_path %></li>
             <li><%= link_to "Accomodation", accommodation_path %></li>
-            <li><%= link_to "Order of Events", order_path %></li>
             <li><%= link_to "RSVP", rsvp_path %></li>
         </ul>
         </div>
-        <div class = "span10">
-          <%= yield %>  
-
+        <div class = "span9">
+          <%= yield %>            
         </div>
       </div>      		
 		</div>
