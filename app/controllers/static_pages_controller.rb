@@ -13,4 +13,7 @@ class StaticPagesController < ApplicationController
 
   def order
   end
+
+  def giftlist
+  end  
 end

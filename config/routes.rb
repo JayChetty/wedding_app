@@ -5,7 +5,8 @@ WeddingApp::Application.routes.draw do
   match '/rsvp', to:'static_pages#rsvp'
   match '/venue', to:'static_pages#venue'   
   match '/accommodation', to:'static_pages#accommodation'
-  match '/order', to:'static_pages#order'        
+  match '/order', to:'static_pages#order' 
+  match '/giftlist', to:'static_pages#giftlist'        
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
