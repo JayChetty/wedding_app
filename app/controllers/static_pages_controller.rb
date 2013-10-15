@@ -16,4 +16,7 @@ class StaticPagesController < ApplicationController
 
   def giftlist
   end  
+
+  def frisun
+  end    
 end
